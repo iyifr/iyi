@@ -1,0 +1,24 @@
+---
+const today = new Date();
+---
+
+<footer>
+	&copy; {today.getFullYear()} iyimide. All rights reserved.
+</footer>
+<style>
+	footer {
+		text-align: center;
+		height: 12px;
+		font-size: 16px;
+		position: fixed;
+        bottom: 15px;
+		margin-inline: 14px;
+		margin-bottom: 4px;
+		font-weight: 200;
+	}
+	 @media (max-width: 720px) { 
+		footer {
+			font-size: 13px;
+		}
+	 }
+</style>

@@ -1,0 +1,91 @@
+---
+import HeaderLink from './HeaderLink.astro';
+import { SITE_TITLE } from '../consts';
+---
+
+<header>
+	<nav>
+		<h2><a href="/" class="iyi">{SITE_TITLE}.</a></h2>
+		<div class="links">
+			<HeaderLink href="/">Home</HeaderLink>
+			<HeaderLink href="/blog">Blog Posts</HeaderLink>
+			<HeaderLink href="/about">Work</HeaderLink>
+		</div>
+
+		<a href="/blog">Archive</a>
+	</nav>
+</header>
+<style scoped>
+	.iyi {
+		font-size: 24px !important;
+	}
+	.links a {
+		margin-inline: 12px;
+		font-size: 16px;
+	}
+	header {
+		margin: 0;
+		padding: 0 1em;
+		box-shadow: 0 2px 8px rgba(var(--black), 5%);
+	}
+	h2 {
+		margin: 0;
+		font-size: 1em;
+	}
+
+	h2 a,
+	h2 a.active {
+		text-decoration: none;
+	}
+	nav {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+ 		margin-inline: auto;
+		padding-block: 12px;
+		padding-inline: 120px;
+	}
+	nav a {
+		padding: 1em 0.5em;
+		color: #FFFFFF;
+		border-bottom: 4px solid transparent;
+		text-decoration: none;
+		font-size: large;
+	}
+	.social-links,
+	.social-links a {
+		display: flex;
+	}
+	@media (max-width: 720px) {
+		.social-links {
+			display: none;
+		}
+
+		.links {
+			display: none;
+		}
+
+		nav {
+		display: flex;
+		align-items: start;
+		justify-content: space-between;
+		padding-block: 18px;
+		padding-inline: 18px;
+		
+	}
+	nav a {
+		color: #FFFFFF;
+		border-bottom: 4px solid transparent;
+		text-decoration: none;
+		font-size: large; 
+		margin-top: -2px;
+		padding: 0
+	}
+		header {
+		margin: 0;
+		padding: 0 0.5em;
+		box-shadow: 0 2px 8px rgba(var(--black), 5%);
+	}
+
+	}
+</style>
