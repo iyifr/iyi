@@ -5,7 +5,7 @@ import { computed, reactive, ref } from 'vue'
 const searchValue = ref('')
 
 const posts = (await getCollection('blog')).sort(
-	(a, b) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf()
+	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
 )
 
 const reactivePosts = ref(posts)
@@ -19,6 +19,11 @@ const filteredPosts = computed(() =>
 )
 
 const getURL = (string: string) => `/blog/${string}`
+const options: any = {
+	year: 'numeric',
+	month: 'short',
+	day: 'numeric',
+}
 </script>
 
 <template>
@@ -34,7 +39,8 @@ const getURL = (string: string) => `/blog/${string}`
 				:key="post.data.title"
 			>
 				<a :href="getURL(post.slug)">
-					<h5 class="title">{{ post.data.title }}</h5>
+					<h2 class="title">{{ post.data.title }}</h2>
+					<p class="description">{{ post.data.pubDate.toLocaleDateString('en-NG', options) }}</p>
 					<p class="description">{{ post.data.description }}</p>
 				</a>
 			</li>
@@ -43,6 +49,9 @@ const getURL = (string: string) => `/blog/${string}`
 </template>
 
 <style scoped>
+h2 {
+	font-size: 1.4rem;
+}
 section {
 	margin-block: 18px;
 }
@@ -87,7 +96,7 @@ ul li a {
 
 ul li a:hover h4,
 ul li a:hover .date {
-	color: #e0dffe;
+	color: #4c49f0;
 }
 ul a:hover img {
 	box-shadow: var(--box-shadow);
@@ -95,7 +104,7 @@ ul a:hover img {
 
 .description {
 	font-size: 15px;
-	color: #e0dffe;
+	color: #ffffff;
 	opacity: 50;
 }
 @media (max-width: 720px) {
@@ -109,9 +118,6 @@ ul a:hover img {
 	}
 	ul li:first-child {
 		margin-bottom: 0;
-	}
-	ul li:first-child .title {
-		font-size: 1.563em;
 	}
 }
 
