@@ -3,10 +3,14 @@ import { getCollection } from 'astro:content'
 import { computed, reactive, ref } from 'vue'
 
 const searchValue = ref('')
+let loading = ref(true)
 
-const posts = (await getCollection('blog')).sort(
-	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
-)
+const posts = (
+	await getCollection('blog').then((res) => {
+		loading.value = false
+		return res
+	})
+).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
 
 const reactivePosts = ref(posts)
 
@@ -33,6 +37,7 @@ const options: any = {
 			:value="searchValue"
 			@input="(event: any) => (searchValue = event.target.value)"
 		/>
+		<span v-if="loading"> Loading..... </span>
 		<ul>
 			<li
 				v-for="post in filteredPosts"
@@ -113,7 +118,6 @@ ul a:hover img {
 	}
 	ul li {
 		width: 100%;
-		text-align: center;
 		margin-top: 12px;
 	}
 	ul li:first-child {

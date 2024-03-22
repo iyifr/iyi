@@ -9,13 +9,16 @@ import { SITE_TITLE } from '../consts';
 		<div class="links">
 			<HeaderLink href="/">Home</HeaderLink>
 			<HeaderLink href="/blog">Blog Posts</HeaderLink>
-			<HeaderLink href="/about">Personal Lore</HeaderLink>
+			<HeaderLink href="/about">About</HeaderLink>
 		</div>
 
-		<a href="/blog">Archive</a>
+		<HeaderLink href="/about" class="mobile">About</HeaderLink>
 	</nav>
 </header>
 <style scoped>
+	.mobile {
+		display: none !important;
+	}
 	.iyi {
 		font-size: 24px !important;
 	}
@@ -50,7 +53,7 @@ import { SITE_TITLE } from '../consts';
 		color: #FFFFFF;
 		border-bottom: 4px solid transparent;
 		text-decoration: none;
-		font-size: large;
+		font-size: small;
 	}
 	.social-links,
 	.social-links a {
@@ -63,6 +66,9 @@ import { SITE_TITLE } from '../consts';
 
 		.links {
 			display: none;
+		}
+		.mobile {
+			display: block !important
 		}
 
 		nav {
