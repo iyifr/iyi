@@ -1,2 +1,3 @@
 ### Personal Site
-Personal site with blog posts and projects portfolio to be added soon
+Built with Astro and Vue components. 
+First-class support for markdown files which holds all blog content locally
