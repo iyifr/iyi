@@ -48,6 +48,15 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 			}
 			.last-updated-on {
 				font-style: italic;
+				margin-top: 0.75rem;
+			}
+
+			.comments {
+				margin-block: 2rem;
+			}
+
+			.comments h4 {
+				color: pink
 			}
 		</style>
 	</head>
@@ -75,7 +84,9 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 					</div>
 					<slot />
 				</div>
+
 			</article>
+
 		</main>
 		<Footer />
 	</body>

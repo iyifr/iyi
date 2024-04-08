@@ -3,6 +3,12 @@ import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+import { getCollection } from 'astro:content';
+
+
+const featuredBlogEntries = await getCollection('blog', ({ data }) => {
+  return data.featured === true;
+});
 ---
 
 <!doctype html>
@@ -13,24 +19,20 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 	<body>
 		<Header />
 		<main>
-		<p>It's pronounced "Iyi-mi-de"</p>
-		<p>I'm an overconfident programmer.</p>
-		<p>My philosophy is optimism.  </p>
-		<p>It's gonna get better&#8482</p>
-		<p>Start here for some <a href="about">personal lore</a></p>
+			<h2 class="mb-4 text-4xl font-extrabold text-blue-200">Hey, welcome.</h2>
+			<p>I build websites and apps for work and fun but mostly profit.</p>
+			<p>I read sparsely and as widely but my favorite book so far is <b class="mx-1.5">Mastery</b> by Robert Green.</p>
+			<p>Current fixation -  An e-commerce platform for the African market that enables global reach.</p>
 
-	<p>My blog posts are <a href="/blog"> here</a></p>
+		<h2>Blog Posts</h2>
 
 		</main>
+
 		<Footer />
 	</body>
 </html>
 
 <style>
- main {
-	text-align: center;
- }
-
  h4 {
 	text-align: left;
 	margin-block: 14px;

@@ -5,6 +5,7 @@ description:
 "
 pubDate:  '5 March 2024'
 heroImage: '/blog-placeholder-1.jpg'
+featured: true
 ---
 
 Both of my sisters are currently busy with exams, usually my younger sister hangs out with my
