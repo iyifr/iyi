@@ -36,6 +36,7 @@ const options: any = {
 			placeholder="Search for article"
 			:value="searchValue"
 			@input="(event: any) => (searchValue = event.target.value)"
+			class="text-black"
 		/>
 		<span v-if="loading"> Loading..... </span>
 		<ul>
@@ -44,9 +45,9 @@ const options: any = {
 				:key="post.data.title"
 			>
 				<a :href="getURL(post.slug)">
-					<h2 class="title">{{ post.data.title }}</h2>
+					<h2 class="mb-2">{{ post.data.title }}</h2>
 					<p class="description">{{ post.data.pubDate.toLocaleDateString('en-NG', options) }}</p>
-					<p class="description">{{ post.data.description }}</p>
+					<p class="lg:text-lg text-white/80">{{ post.data.description }}</p>
 				</a>
 			</li>
 		</ul>

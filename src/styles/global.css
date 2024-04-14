@@ -27,35 +27,6 @@ body {
 	line-height: 1.7;
 }
 
-main {
-	max-width: calc(100% - 12rem);
-	margin: auto;
-	padding: 3em 1em;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	margin: 0 0 0.5rem 0;
-	line-height: 1.2;
-}
-h1 {
-	font-size: 3.052em;
-}
-h2 {
-	font-size: 2.441em;
-}
-h3 {
-	font-size: 1.953em;
-}
-h4 {
-	font-size: 1.563em;
-}
-h5 {
-	font-size: 1.25em;
-}
 strong,
 b {
 	font-weight: 700;
@@ -63,7 +34,9 @@ b {
 
 p {
 	margin-bottom: 1em;
+	@apply text-[20px];
 }
+
 .prose p {
 	margin-bottom: 2em;
 }
@@ -110,10 +83,6 @@ hr {
 	body {
 		font-size: 16px;
 	}
-	main {
-		padding: 1em;
-		max-width: 720px;
-	}
 }
 
 .sr-only {
@@ -132,4 +101,83 @@ hr {
 	clip-path: inset(50%);
 	/* added line to stop words getting smushed together (as they go onto seperate lines and some screen readers do not understand line feeds as a space */
 	white-space: nowrap;
+}
+
+hr {
+	margin-block: 2.5em;
+}
+
+a {
+	@apply text-fuchsia-200 hover:underline hover:text-[#E2DDFE] duration-300;
+}
+
+h2 {
+	@apply text-4xl;
+}
+
+h1 {
+	@apply text-5xl;
+}
+
+h3 {
+	@apply sm:text-3xl text-2xl font-semibold;
+}
+
+h4 {
+	@apply md:text-3xl text-2xl font-bold;
+}
+
+h5 {
+	@apply md:text-2xl;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	@apply font-bold my-1.5;
+}
+
+#project ul li {
+	list-style: circle;
+	margin-left: 12px;
+}
+
+#project {
+	text-wrap: balance;
+	margin-bottom: 4rem;
+}
+
+#project {
+	h1,
+	h2,
+	h3,
+	h4 {
+		margin-top: 1.9em !important;
+	}
+}
+
+#project img {
+	max-width: calc(100% - 4rem);
+	max-height: 400px;
+	margin-block: 8px;
+}
+
+#blog h1,
+h2,
+h3,
+h4,
+h5 {
+	@apply mt-0;
+}
+
+#blog li {
+	list-style: circle;
+	margin-left: 12px;
+}
+
+#blog ul {
+	@apply mb-4;
 }

@@ -117,6 +117,6 @@ Do you think my reasoning is critically flawed ?
 
 Do you agree with me for some weird reason ?
 
-Tweet at [me]("https://twitter.com/iyifrr").
+Tweet at [me](https://twitter.com/iyifrr.)
 
-Or email me with your own explanation - iyimide@proton.me
+Or email me - iyimide@proton.me

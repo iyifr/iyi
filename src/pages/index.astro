@@ -4,11 +4,9 @@ import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 import { getCollection } from 'astro:content';
+import Featured from '../components/Featured.vue';
+import Projects from '../components/Projects.vue';
 
-
-const featuredBlogEntries = await getCollection('blog', ({ data }) => {
-  return data.featured === true;
-});
 ---
 
 <!doctype html>
@@ -18,14 +16,17 @@ const featuredBlogEntries = await getCollection('blog', ({ data }) => {
 	</head>
 	<body>
 		<Header />
-		<main>
-			<h2 class="mb-4 text-4xl font-extrabold text-blue-200">Hey, welcome.</h2>
-			<p>I build websites and apps for work and fun but mostly profit.</p>
-			<p>I read sparsely and as widely but my favorite book so far is <b class="mx-1.5">Mastery</b> by Robert Green.</p>
-			<p>Current fixation -  An e-commerce platform for the African market that enables global reach.</p>
+		<main class="max-w-5xl mx-auto lg:p-0 p-6">
+			<h2 class="mb-4 text-3xl font-bold text-fuchsia-200">Iyifr.</h2>
+			<p>I'm a programmer that build apps on the web.</p>
+			<p>I read sparsely and widely but my favorite book so far is <b class="mx-0.5">Mastery</b> by Robert Greene.</p>
+			<p>Currently fixated on building e-commerce enablers for africa's entrepreneurs.</p>
+			<p>On my blog you'll find stuff about technology, time travel and frank ocean's music.</p>
 
-		<h2>Blog Posts</h2>
+		<h2 class="text-2xl font-bold mt-12 mb-0">Featured posts</h2>
+		<Featured client:load/>
 
+		<Projects client:load/>
 		</main>
 
 		<Footer />

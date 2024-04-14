@@ -16,20 +16,20 @@ These aren't your full-blown assault type bullies though, these are the bullies 
 small for having any thoughts or interests of your own.
 
 Yeah, that person that always has something snarky or dismissive thing to say about your interests
-or your point of view, let's call them a micro-bully. It's my belief that your inner voice is the
-summation of the following
+or your point of view, let's call them a micro-bully. Your inner voice takes shape over the years
+and is built up by the following things -
 
-- Your DNA
 - Your experiences
-- The information you have accumulated and retained over the years.
+- Your environment
+- The desires of others
 
-It's your inner voice that morphs into taste over the years. The things that attract you or repel
-you. The things you find delight in doing. The things you are hopelessly apathetic about ( I
-seriously don't care for "xyz" )
+It's your inner voice that morphs into personal taste over the years, if you listen to it, that is.
+The things that attract you or repel you. The things you find delight in doing. The things you are
+hopelessly unabashedly passionate about.
 
 The annoying thing about these kind of bullies is that they assert themselves in such a confident
-way to try to trample on your POV. They have this false narrative of being "realistic" and will
-often put you down when you show any sign of original thought.
+way to try to bring you down. They have this false narrative of being "realistic" and will often try
+to put you down when you show any sign of original thought.
 
 The anatomy of a snarky comment should be familiar, if it is not.. then you probably fit too neatly
 into society.
@@ -37,9 +37,9 @@ into society.
 These snarky comments ticks either or both of these boxes
 
 - What you desire is unrealistic.
-- What you desire / are interested in is too low status ( "can it feed you ?" type comments)
+- What you are interested in is low status
 
-#### WHAT YOU DESIRE IS UNREALISTIC
+#### Unrealistic
 
 In some contexts, the things you desire to do can be quite ambitious, so relating them with your
 peers or parents might not go as well as you thought. Usually these snarky comments are just a way
@@ -48,7 +48,7 @@ of saying --- "This thing you want to do is unfamiliar to me and I feel threaten
 Sometimes your perspective may be too far outside the scope of others and they just cannot see where
 you are coming from with certain ideas or interests.
 
-#### WHAT YOU DESIRE IS LOW STATUS
+#### Low Status
 
 Some cases, what you want to do is not regarded as 'lucrative' or something you can say at an
 expensive dinner with your "peer group". It's also most likely something your African Mom will have
@@ -113,7 +113,5 @@ naysayed.. but but.. they "meant well" and were "realistic"
 
 The other thing is, you may not have it all figured out and are hoping to one day to find that
 spark. You'll never find it without building any momentum. You have to start going in the direction
-you want to go and you'll find out that there's serendipity somewhere along the way. Don't just be a
-dreamer.
-
-Kay, that's all from me. Adios.
+you want to go and you'll find out that there's serendipity somewhere along the way. Action is what
+seperate dreamers from doers.

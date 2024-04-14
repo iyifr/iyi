@@ -13,21 +13,10 @@ import Posts from '../../components/Posts.vue'
 <html lang="en">
 	<head>
 		<BaseHead title={"Blog | Iyi."} description={"Thought experiments and other writing from Iyimide Adekile"} />
-		<style>
-			main {
-				width: 960px;
-			}
-			input {
-				margin-bottom: 24px;
-				padding-block: 4px;
-				padding-inline: 8px;
-				border-radius: 4px;
-			}
-		</style>
 	</head>
 	<body>
 		<Header />
-		<main>
+		<main class=" lg:mx-auto max-w-6xl lg:px-24 px-8">
 			<section>
 				<Posts client:load/>
 			</section>

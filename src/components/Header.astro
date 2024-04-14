@@ -4,15 +4,14 @@ import { SITE_TITLE } from '../consts';
 ---
 
 <header>
-		<nav class="flex flex-row items-center justify-between lg:px-12">
+		<nav class="flex flex-row items-center sm:justify-between justify-center lg:px-12">
 
-			<a href="/">
+			<a href="/" class="sm:block hidden">
 			<img src = "/iyifr.png" class="lg:w-56 w-32"/>
 			</a>
-
-			<span class="md:flex hidden flex-row items-center gap-12">
+			<span class="flex-row items-center md:gap-12 sm:p-0 px-4 gap-24 py-4">
 			<HeaderLink href="/">Home</HeaderLink>
-			<HeaderLink href="/blog">Thoughts</HeaderLink>
+			<HeaderLink href="/blog" class="mx-8 sm:mx-12">Blog</HeaderLink>
 			<HeaderLink href="/about">About</HeaderLink>
 			</span>
 		</nav>
