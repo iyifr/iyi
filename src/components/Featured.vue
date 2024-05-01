@@ -22,9 +22,7 @@ const getURL = (string: string) => `/blog/${string}`
 				>
 					<span class="text-white/80">
 						<h2 class="text-2xl font-bold mt-2">{{ post.data.title }}</h2>
-						<p class="text-sm">
-							Published - {{ post.data.pubDate.toLocaleDateString('en-NG', options) }}
-						</p>
+						<p class="text-sm">Published - {{ post.data.pubDate.toLocaleDateString('en-NG') }}</p>
 						<p class="text-sm">{{ post.data.description }}</p>
 					</span>
 				</a>

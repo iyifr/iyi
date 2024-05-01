@@ -74,7 +74,7 @@ lifestyle they prefer for fear of disappointing their friends / family.
 
 Or they could be scared because they don't have examples to look to for guidance or inspiration.
 
-#### DON'T GROW UP
+#### Sticky Ambitions
 
 You're probably not gonna grow out of it if you tried. You know that there's stuff you want to do
 that's unheard of for people "like you"... people from your home town, people in your family...

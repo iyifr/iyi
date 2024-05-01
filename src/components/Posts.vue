@@ -56,20 +56,16 @@ const options: any = {
 
 <style scoped>
 h2 {
-	font-size: 1.4rem;
-}
-section {
-	margin-block: 18px;
+	font-size: 1.6rem;
 }
 ul {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	flex-wrap: wrap;
-	gap: 4rem;
+	gap: 1.2rem;
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	margin-top: 24px;
 }
 ul li {
 	width: calc(50% - 1rem);

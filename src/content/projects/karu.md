@@ -1,5 +1,5 @@
 ---
-title: 'Karu App'
+title: 'Karu'
 description:
   'Restaurants and cafes can now stay on top of their finances and inventory on a slick web
   dashboard'
@@ -12,9 +12,9 @@ url: 'https://karu-app.vercel.app'
 !["The first screenshot showing Karu's homepage and dashboard home screen"](/screen1.png 'Home page ')
 !["Screenshot showing a signup modal"](/signup.png 'Home page')
 
-### TECH STACK
+### Tech stack
 
-Karu is built with a very modern stack.
+I built this with a very "bleeding-edge" stack.
 
 - Next.js 14 with Server Actions.
 - Typescript.

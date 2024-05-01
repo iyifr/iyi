@@ -28,7 +28,7 @@ Imagine you could shop for quality clothes and cut the market roundtrips, same w
 Amazon and Jumia... Overall, I hope we can bring something new to e-commerce the same way Paystack
 did for online payments in Africa.
 
-##### Svelte Supremacy!!!
+#### Svelte Supremacy!!!
 
 I broke the rules of bootstrapped startup dev and used new tech for this project. I've been a React
 guy since i started making websites, but I've been flirting with svelte for a long time. Watching
@@ -46,18 +46,10 @@ Nuxt). But my fingers were burnt. Charred even. File based routing on windows ??
 started for realll... I haven't given up yet, but it's likely it will only be available on the Bun
 runtime. More details soon
 
-##### Medusa.js but simpler.
+#### Non-programming projects.
 
-I tried to use medusa.js to build the MVP for Drippd. So complex! I got the idea to build a
-database-agnostic E-commerce SDK with some sensual typescript DX. It would allow devs to spin up
-customized e-commerce experience in no time!, That's my only open source idea for now. May the DX be
-unholy and the Github gods be kind to me.
+- I want to learn how the maths stacks up. How can one build up from Basic Number Theory to Complex
+  Integration and connect each topic along the way ?
 
-##### Non-programming projects.
-
-- I want to learn how the maths stacks up. Like how can one build up from Basic Number Theory to
-  Complex Integration ?
-
-- I want to learn about quantum physics and how we can reliably describe how atoms behave on the
-  smallest of scales. I wonder if that will come handy in cracking teleportation or some other
-  futuristic tech.
+- I want to learn about quantum physics describing how atoms behave on the smallest scale. I wonder
+  if that will come handy in cracking teleportation or some other futuristic tech.

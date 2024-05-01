@@ -8,6 +8,8 @@ heroImage: '/blog-placeholder-1.jpg'
 featured: true
 ---
 
+### Intro
+
 Both of my sisters are currently busy with exams, usually my younger sister hangs out with my
 brother while he does the dishes, but since she's absent, we hung out as I was doing the dishes.
 
@@ -29,7 +31,7 @@ Data about everything. And when i say everything i mean EVERYTHING.
 something)
 
 I also said that what we experience as the flow of time is basically just a mechanism to accommodate
-for continuous (never-stopping) changes to this data.
+for continuous changes to this data.
 
 At this point i pick up a plastic bowl and beat it into a shape and say that what i just did changed
 the way you would describe the plastic bowl. Some of it's characteristics changed. It's position
@@ -59,8 +61,8 @@ changed. The snapshot has changed.
 
 Every time this snapshot changes, we move forward in time.
 
-To shift time backwards, you have to reset the global state of aeons of data to the snapshot of the
-point in time you wish to travel into.
+To shift time backwards, you have to reset the global state of aeons of data about the universe to a
+snapshot of it at the exact point in time you wish to travel into.
 
 To shift time forwards, you would have to accelerate the changes and randomness and arrive at a new
 snapshot several trillions of iterations ahead.
