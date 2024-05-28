@@ -1,5 +1,5 @@
 ---
-title: 'Unleashing Creativity as a developer / programmer'
+title: 'Unleashing Creativity as a developer'
 description:
   'The conversation about creativity is a critical one .. to see your potential as a developer or as a human being you have to solve problems and to continuously suprise yourself and that requires creativity and strong persistence
 '
@@ -160,9 +160,9 @@ don't re-install it no matter how bad the FOMO (Fear of Missing Out) gets.
 Yes, you won't know the latest tiktok sounds, You need to be a chad. Chad's don't know the tiktok
 sounds. Chads build the future.
 
-Okay, I know you can't tell but I crack myself up lmao. But seriously, your focus is important, what you can
-build and become is more important than watching 1000 videos a day in quick succession just because
-everyone does it.
+Okay, I know you can't tell but I crack myself up lmao. But seriously, your focus is important, what
+you can build and become is more important than watching 1000 videos a day in quick succession just
+because everyone does it.
 
 Your brain needs less, LESS. Less stimulation, less garbage, less thoughts, for it to get into flow
 state.

@@ -3,6 +3,8 @@ title: 'Should you do open source too ?'
 description: 'Open source is for the givers who are not compelled to ask for much in return.'
 pubDate: '1 May 2024'
 heroImage: '/blog-placeholder-1.jpg'
+updatedDate: '1 May 2024'
+featured: true
 ---
 
 I'm African, from Nigeria. Born and raised here. I'm one of millions\* ( i think ) programmers here
@@ -28,44 +30,41 @@ I suspect there are three main reasons why they abandoned it
 - Wasn't good enough to take off
 - Didn't even try to publicize the project.
 
-### It's weird, lol
+### It's not easy.
 
 Open source is weird... It's not that big a deal to do, until it is.
 
-When one of my startups IPO's for billions of dollars, I'd like to start a grant for open source
-programmers to have run-way for a few years so they can figure out how to sustain themselves while
-working full time on their open-source stuff... i.e consulting, freelancing, etc.
+When one of my startups IPO's for billions of dollars, I'd start a grant for open source programmers
+to have run-way for a few years so they can figure out how to sustain themselves while working full
+time on their open-source stuff... i.e start doing consulting, freelancing, etc.
 
 I'll talk more on why open source developers deserve some no-strings attached money later on.
 
-You need to make something people want... (haha y-combinator said it first.) I think it's a
-universal rule of thumb for making any kind of technology. You need to make something someone out
-there wants. That someone could be yourself. You could make something you desperately want, or you
-could tinker till you accidentally make something amazing.
+You need to make something people want. I think that's a universal rule of thumb for making any kind
+of technology. You need to make something someone out there wants. That someone is most likely going
+to be yourself. You could make something you desperately want, or you could tinker till you
+accidentally make something amazing.
 
 Then you have to -
 
-- Spread the word and get some OSS clout.
-- Maintain it properly.
+- Spread the word and tell as many people as possible.
 - Add new features, improve the API
-- Make amazing docs (please)
+- Make amazing docs.
 
-Making the thing is easy, but making it useful to other programmers, this takes A LOT of hard,
-boring work.
+Making the thing is easy, but making it useful to other programmers, this takes hard, boring work.
 
 If your little open-source project takes off, and you're living as a programmer in Africa, How
 should i phrase this...
 
-**You're in soup.**
+**You have work to do**
 
-You have work to do, and it's not part time work.
+You have work to do, and it's not easy to do it alongside a full time job
 
 Don't believe me ? You can ask the creator of [Chakra UI](https://chakra-ui.com).
 [Segun Adebayo](https://adebayosegun.com).
 
-People need what you made. They like it even. This does not financially benefit you, especially in
-the early stages of the journey. Let's face it, if you pander for contributions all over your docs
-and website, most people are just gonna get turned off and click away.
+People need what you made. They like it even. This does not financially benefit you in a big way..
+like your job does, especially in the early stages of the journey.
 
 Most of the gritty work will be towards the end of your v1.
 
@@ -78,11 +77,12 @@ Okay, you get my point ? This is why there's so many dead repos buried in the so
 github or local computer.
 
 Also, I must say.. It's now possible to get rewarded financially for your open source work.. There's
-dozens of platforms addressing this gaping hole. Which is amazing. But I wouldn't bet on it. And i
+dozens of platforms addressing this need. Which is amazing. But I wouldn't bet on that, alone. And i
 wouldn't also get into open source for financial rewards.
 
-Becoming a cracked programmer is a fantastic reason to get into open source. Cracked just means
-being highly competent or skilled.
+Becoming a cracked programmer is a fantastic reason to get into open source.
+
+> Cracked - being highly competent or skilled.
 
 I'll talk more about becoming cracked through open source later.
 
@@ -107,28 +107,33 @@ don't complain.
 I want to believe you feel a sense of pride, seeing your thing in the wild like that. That's because
 it's not about what you can get... it's about what you have to give.
 
-Avoid grifting at all costs. Avoid having a taker's mindset.
+Avoid grifting. Avoid having a taker's mindset.
 
-Don't call yourself an open-source startup if some parts of your platform are not open source.
+Don't call your startup an open source startup if some parts of your platforms are closed source.
 
 Don't try to make profit off people's hard work without taking the proper steps, attribution and
-what not.
-
-Don't parade as an "open source developer".. except you're trying to impress a tech recruiter or
-you're shilling for views on LinkedIn. What did you make ? what did you contribute ?
+what not...
 
 ### Please don't do this
 
 Most importantly.. you wouldn't write an article vaguely saying "open source" is the way to a remote
-job in US on a fat, sexy salary.
+job in US on a fat salary.
 
 That would be a pathetically ignorant thing to do.
-
-What do you even mean when you say this??
 
 Africans read that and go crazy. "$100k a year!!" , "Relocate to the US!!". Getting a job like this
 can seriously change the average programmer's life here. You seriously think it's just Americans and
 Europeans reading your blog ? You're selling a narrative that doesn't help anyone.
+
+You won't get a job in tech just by doing open source.
+
+You get a job in tech by being a cracked programmer and providing overwhelming evidence that you are
+skilled.
+
+> Cracked - To be incredibly skilled and valuable.
+
+It's hard and even I, the writer of this blog post is navigating this unskillfully at the moment
+(but getting better)
 
 ### The OSS Contribution CheckList
 
@@ -136,9 +141,9 @@ Here's a short checklist of things you need to remember before contributing to o
 And yes, for 99.999% of what counts as open source software, you need to have some experience
 programming to contribute.
 
-- Understand what the project is about
-- Read the source code and documentation as thoroughly as you can
-- Do your best work and follow due process the maintainers have set
+- Understand what the project is about.
+- Read the source code and documentation as thoroughly as you can.
+- Do your best work and follow due process the maintainers have set.
 - You should probably make an issue, first.
 
 ---
@@ -202,8 +207,8 @@ people creating these cool things that help you bring your product ideas to real
 
 ### Ad Summa
 
-- The best reason to do Open Source is out of necessity. Second best way is by accident. Third best
-  way is by reading a lot of good code on Github.
+- The best way to get into open source is necessity. Second best way is by accident. Just make sure
+  you're reading a lot of code and gaining an intuition of how things _really_ work.
 
 - Open Source is a lot of work you'll probably not get paid enough for, and if your thing is really
   good, people will fork it, build on top of it, IPO and never say thank you.
@@ -211,7 +216,7 @@ people creating these cool things that help you bring your product ideas to real
 - Everything is a wrapper of something (or a lot of things), If you're building something,
   acknowledge what you're a wrapper of and pay it forward.
 
-- Africa needs to get serious about actually building technology and not parading endlessly, there's
-  a lot of programmers with talent that don't have the opportunity to do what they love, in a big
-  way. Endless festivals and tech concerts don't help these people!! Building cool shit does and
-  getting publicity for it does. Encourage this, fund this and celebrate this and we should be fine.
+- There's a lot of programmers with talent that don't have the opportunity to do what they love, in
+  a big way, simply because they are in the wrong environment and don't see a way out. Endless
+  festivals and tech concerts don't help these people!! Building cool shit does and getting
+  publicity for it does. Encourage this, fund this and celebrate this and we should be fine.

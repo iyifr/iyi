@@ -36,7 +36,7 @@ const options: any = {
 			placeholder="Search for article"
 			:value="searchValue"
 			@input="(event: any) => (searchValue = event.target.value)"
-			class="text-black"
+			class="text-black mt-8"
 		/>
 		<span v-if="loading"> Loading..... </span>
 		<ul>
@@ -62,7 +62,7 @@ ul {
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
-	gap: 1.2rem;
+	gap: 1rem;
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -111,14 +111,19 @@ ul a:hover img {
 }
 @media (max-width: 720px) {
 	ul {
-		gap: 4em;
+		gap: 1em;
+		margin-bottom: 12px;
 	}
 	ul li {
 		width: 100%;
-		margin-top: 12px;
+		margin-top: 2px;
 	}
 	ul li:first-child {
 		margin-bottom: 0;
+	}
+
+	.description {
+		font-size: 14px;
 	}
 }
 

@@ -17,11 +17,12 @@ const { title, description, stack, images, url } = Astro.props;
 
 	<body>
 		<Header />
-		<main class="lg:max-w-5xl mx-auto lg:px-0 px-6" id="project">
-            <h2 class="font-bold !mt-4">{title}</h2>
-            <p class="mt-4 font-light lg:w-[80%]">{description}</p>
-			<p>Live app link - <a href={url} target="_blank">Karu App.</a></p>
-		    <slot />
+		<main class="lg:max-w-4xl mx-auto lg:px-0 px-6" id="project">
+            <h2 class="font-bold !mt-4 text-3xl">{title}</h2>
+            <p class="mt-4 font-light">{description}</p>
+			<p>Project Link - <a href={url} target="_blank">is here</a></p>
+
+		    <slot class="leading-loose"/>
 		</main>
 		<Footer />
 	</body>

@@ -10,11 +10,11 @@ const getURL = (string: string) => `/blog/${string}`
 
 <template>
 	<section>
-		<ul class="flex lg:flex-row flex-col gap-4">
+		<ul class="flex lg:flex-row flex-col gap-4 lg:h-56">
 			<li
 				v-for="post in featuredBlogEntries"
 				:key="post.data.title"
-				class="bg-[#222222] border-2 border-[#3A3A3A] p-4 mt-4 rounded-xl"
+				class="bg-[#222222] border-2 border-[#3A3A3A] p-4 mt-4 rounded-xl lg:w-1/2 w-full"
 			>
 				<a
 					:href="getURL(post.slug)"

@@ -1,9 +1,7 @@
 ---
 title: 'Karu'
-description:
-  'Restaurants and cafes can now stay on top of their finances and inventory on a slick web
-  dashboard'
-stack: ['Next.js', 'Software as a service', 'libsql on edge']
+description: 'A Software Application for data-driven restaurants and cafes to automate book-keeping'
+stack: ['Next.js', 'Software as a service', 'Turso', 'Sqlite']
 url: 'https://karu-app.vercel.app'
 ---
 
