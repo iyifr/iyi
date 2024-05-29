@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import type { MarkdownHeading } from 'astro';
+
 const props = defineProps<{ headers: MarkdownHeading[]; url: string }>()
 
 function formatStr(string) {

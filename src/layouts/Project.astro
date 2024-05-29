@@ -20,7 +20,7 @@ const { title, description, stack, images, url } = Astro.props;
 		<main class="lg:max-w-4xl mx-auto lg:px-0 px-6" id="project">
             <h2 class="font-bold !mt-4 text-3xl">{title}</h2>
             <p class="mt-4 font-light">{description}</p>
-			<p>Project Link - <a href={url} target="_blank">is here</a></p>
+			<a href={url} target="_blank">Project Link</a>
 
 		    <slot class="leading-loose"/>
 		</main>

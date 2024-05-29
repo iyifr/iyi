@@ -9,7 +9,19 @@ const { slug } = Astro.params;
 const post = posts.find((page) => page.slug === slug);
 if (!post) return Astro.redirect("/404");
 const { Content } = await post.render();
+
+
 ---
+
+<script>
+var links = document.querySelectorAll('a');
+
+links.forEach(function(link) {
+  var href = link.href;
+  if (href && href.indexOf(document.domain) === -1) {
+    link.target = "_blank";
+  }
+}); </script>
 
 <Project {...post.data}>
 	<Content />
