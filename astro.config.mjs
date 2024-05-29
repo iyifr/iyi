@@ -22,7 +22,7 @@ export default defineConfig({
 					shadowColor: '#124',
 				},
 				codeFontFamily: 'Cascadia Code, Consolas, Liberation Mono, Courier New',
-				codeFontSize: '0.9rem',
+				codeFontSize: '0.95rem',
 			},
 		}),
 		mdx(),

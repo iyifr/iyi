@@ -1,11 +1,12 @@
 ---
 title: 'A letter to Frank Ocean Fans'
 description:
-  'For every emotion the songs made us feel, every experience he crafted for us so deliberately, to
-remember, to long for, to miss. For the ability to enjoy something as special as Blonde."
-'
+  "I'm grateful for Blonde. For every emotion the songs made us feel, every experience he crafted for us so deliberately, to
+remember, to long for, to miss. For the ability to enjoy something as special as Blonde.
+"
 pubDate:  '18 January 2023'
 heroImage: '/blog-placeholder-1.jpg'
+featured: true
 ---
 
 Today, I'm thinking about frank ocean. Don't worry, if you haven't heard of him or you have but

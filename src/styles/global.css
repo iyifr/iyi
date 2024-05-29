@@ -34,7 +34,7 @@ b {
 }
 
 p {
-	margin-bottom: 0.7em;
+	margin-bottom: 0.8em;
 	@apply text-[20px];
 }
 
@@ -59,10 +59,9 @@ img {
 code {
 	padding: 2px 5px;
 	background-color: rgb(var(--gray-light));
-	border-radius: 2px;
 }
 pre {
-	padding: 1.5em;
+	padding: 1.8em;
 	border-radius: 8px;
 }
 pre > code {
@@ -115,7 +114,7 @@ a {
 }
 
 h1 {
-	@apply text-5xl;
+	@apply text-5xl mb-3;
 }
 
 h2 {
@@ -131,7 +130,7 @@ h4 {
 }
 
 h5 {
-	@apply md:text-2xl;
+	@apply md:text-2xl mt-4 mb-2.5;
 }
 
 h1,
@@ -162,12 +161,7 @@ h6 {
 	}
 }
 
-h5 {
-	@apply mt-6 mb-4 font-semibold;
-}
-
 #blog {
-	h1,
 	h2,
 	h3,
 	h4,

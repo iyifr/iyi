@@ -32,7 +32,7 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 			}
 			.title {
 				margin-bottom: 1em;
-				padding: 1em 0;
+				padding: 0em 0;
 				line-height: 1;
 			}
 			.title h1 {
@@ -65,7 +65,7 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 				<div class="prose">
 					<div class="title">
 						<h2 class="text-5xl mb-4">{title}</h2>
-						<div class="date">
+						<div class="date mt-6">
 							Published: <FormattedDate date={pubDate} />
 							{
 								updatedDate && (

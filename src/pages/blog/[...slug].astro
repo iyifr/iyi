@@ -14,11 +14,10 @@ const { Content, headings } = await post.render();
 ---
 
 <BlogPost {...post.data}>
-	<div class="mb-12">
+	<div class="mb-8">
 		<pre class="m-0 p-0">Sections</pre>
 		<Headers headers={headings} url={slug!}/>
 	</div>
 
 	<Content />
-	<p class="text-sm">Comments coming soon**</p>
 </BlogPost>

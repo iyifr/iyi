@@ -10,7 +10,9 @@ const posts = (
 		loading.value = false
 		return res
 	})
-).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+)
+	.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+	.filter((data) => !data.data.draft)
 
 const reactivePosts = ref(posts)
 
@@ -31,7 +33,7 @@ const options: any = {
 </script>
 
 <template>
-	<section>
+	<section class="mb-5">
 		<input
 			placeholder="Search for article"
 			:value="searchValue"
@@ -39,15 +41,16 @@ const options: any = {
 			class="text-black mt-8"
 		/>
 		<span v-if="loading"> Loading..... </span>
-		<ul>
+		<ul class="mt-4 flex flex-col sm:flex-row gap-x-8 gap-y-12 flex-wrap items-center">
 			<li
 				v-for="post in filteredPosts"
 				:key="post.data.title"
+				class="bg-[#222222] py-6 px-5 rounded-lg h-auto"
 			>
 				<a :href="getURL(post.slug)">
 					<h2 class="mb-2">{{ post.data.title }}</h2>
-					<p class="description">{{ post.data.pubDate.toLocaleDateString('en-NG', options) }}</p>
-					<p class="lg:text-lg text-white/80">{{ post.data.description }}</p>
+					<p class="date">{{ post.data.pubDate.toLocaleDateString('en-NG', options) }}</p>
+					<p class="mt-1 text-base text-white/80">{{ post.data.description }}</p>
 				</a>
 			</li>
 		</ul>
@@ -58,15 +61,7 @@ const options: any = {
 h2 {
 	font-size: 1.6rem;
 }
-ul {
-	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-	gap: 1rem;
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-}
+
 ul li {
 	width: calc(50% - 1rem);
 }
@@ -75,14 +70,6 @@ ul li * {
 	transition: 0.2s ease;
 }
 
-ul li:first-child img {
-	width: 100%;
-}
-
-ul li img {
-	margin-bottom: 0.5rem;
-	border-radius: 12px;
-}
 ul li a {
 	display: block;
 }
@@ -92,20 +79,13 @@ ul li a {
 }
 .date {
 	margin: 0;
-	color: rgb(var(--gray));
+	color: rgb(204, 199, 199);
 	font-size: 14px;
-}
-
-ul li a:hover h4,
-ul li a:hover .date {
-	color: #4c49f0;
-}
-ul a:hover img {
-	box-shadow: var(--box-shadow);
+	opacity: 40;
 }
 
 .description {
-	font-size: 15px;
+	font-size: 12px;
 	color: #ffffff;
 	opacity: 50;
 }
@@ -130,7 +110,7 @@ ul a:hover img {
 input {
 	margin-bottom: 24px;
 	padding-block: 4px;
-	padding-inline: 8px;
+	padding-inline: 12px;
 	border-radius: 4px;
 }
 </style>
