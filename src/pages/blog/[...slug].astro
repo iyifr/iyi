@@ -15,9 +15,10 @@ const { Content, headings } = await post.render();
 
 <BlogPost {...post.data}>
 	<div class="mb-8">
-		<pre class="m-0 p-0">Sections</pre>
 		<Headers headers={headings} url={slug!}/>
 	</div>
 
+	<div class="prose dark:prose-invert prose-blockquote:border-l-[#adff2f] prose-blockquote:font-light prose-blockquote:text-gray-3000 prose-headings:mt-8 prose-headings:mb-0 prose-h3:mb-0 w-full lg:!max-w-4xl !max-w-lg">
 	<Content />
+	</div>
 </BlogPost>

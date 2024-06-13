@@ -18,9 +18,6 @@ export default defineConfig({
 			themes: ['rose-pine'],
 			styleOverrides: {
 				borderRadius: '0.5rem',
-				frames: {
-					shadowColor: '#124',
-				},
 				codeFontFamily: 'Cascadia Code, Consolas, Liberation Mono, Courier New',
 				codeFontSize: '0.95rem',
 			},

@@ -9,7 +9,7 @@ heroImage: '/blog-placeholder-1.jpg'
 featured: true
 ---
 
-### Intro
+## Intro
 
 Both of my sisters are currently busy with exams, usually my younger sister hangs out with my
 brother while he does the dishes, but since she's absent, we hung out as I was doing the dishes.
@@ -51,7 +51,7 @@ I made another statement off the top of my head -
 
 > Every time the state changes we move forward in time, with a new version of the universe.
 
-### Candid Description
+## Candid Description
 
 Imagine that the state box contained ALL the data about our universe. All the data about a gazillion
 and something atoms down to the last detail.
@@ -74,7 +74,7 @@ Every time this snapshot changes, we move forward in time.
 
 There are some things you would need to figure out.
 
-### Problems
+## Problems
 
 You cannot be a part of the state in order to change it. If you try to meddle with state in some way
 (especially if you're going backwards in time), your actions can have side effects on other pieces

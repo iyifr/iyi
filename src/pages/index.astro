@@ -16,20 +16,50 @@ import Projects from '../components/Projects.vue';
 	</head>
 	<body>
 		<Header />
-		<main class="max-w-5xl mx-auto lg:p-0 p-6">
-			<h2 class="my-4 lg:text-4xl text-2xl font-bold text-fuchsia-200">Welcome</h2>
-			<p>I like to talk, sometimes to my computer with code, other times to humans, in my talks and writing.</p>
-			<p>Most of my writing is on this website.</p>
-			<p>Here's a talk i gave on <a href="https://www.youtube.com/watch?app=desktop&v=wwSpbuK_WQ0">creativity and obsession.</a></p>
-			<p>If you host programming / tech conferences . Feel free to<a href="mailto:iyimide@proton.me"> reach out</a></p>
-			<p>On my blog you'll find me yapping about programming, time travel and frank ocean's music.</p>
-			
+		<main class="max-w-4xl mx-auto p-8 xl:p-0 mt-4 lg:mt-12 text-balance">
+			<h2 class="my-4 lg:text-4xl text-3xl font-bold mt-4">Hey!</h2>
+			<p>It appears you've stumbled on my corner of the internet.</p>
+			<p>This is where I frequently yap, about anything i'm into at the moment.</p>
+			<p class="mt-4">I like to tinker, in a principled <a href="https://www.youtube.com/watch?v=YyIQKBzIuBY&t=1647s" target="_blank">way.</a></p>
+			<p class="my-4">I like to seek out new knowledge... because it's fun, and for a couple of other reasons you'd have to read a bit of <i>David Deustch</i> to understand.</p>
+
+			<p class="mt-4">You're on my site, so i might as well tell you about myself.</p>
+			<p class="text-fuchsia-200 text-balance mt-6 mb-2">Some nouns i'd describe myself with are - </p>
+			<ol class="list-disc ml-6 !text-[16px]">
+				<li>Polymath</li>
+				<li>Principled Tinkerer</li>
+				<li>A speaker who always has a <a href="https://www.youtube.com/watch?app=desktop&v=wwSpbuK_WQ0">talk</a> in him, ready to go.</li>
+				<li>Procrastinating Indie Hacker&#8482 ... i'm gonna launch a saas&#8482 soon i promise.</li>
+				<li>Computer Science Nerd.</li>
+				<li>Code Slinger.</li>
+			</ol>
+
+			<p class="text-fuchsia-200 text-balance mt-6 mb-2">Some things i'm thinking about and tinkering with.. </p>
+
+			<ol class="list-disc ml-6 !text-[16px] flex flex-col gap-4">
+				<li>The history of mathematics</li>
+				<li>Mathematics as a protocol for understanding reality.</li>
+				<li>Why we need new mathematics to arrive at Artificial General Intelligence.</li>
+				<li>Problem solving and error correction.</li>
+				<li>Programs that handle streams of data</li>
+				<li>Binary JSON.</li>
+			</ol>
+
+			<p class="mt-4">I believe your beliefs should work <a href="https://meltingasphalt.com/crony-beliefs/">hard</a>.</p>
+			<p>I think obsession is not for everyone, but the results of ethically applied obsession are <a href="https://tylerbruno.bearblog.dev/on-obsession/" target="_blank">immensely</a> helpful, rather than the other way around.</p>
+			<p>Intentionality, obsession, and taste. Very, very important, if you're going to enjoy your work.</p>
+
+		
+		
+		<div class="mt-6">
 		<a class="underline mr-4" href="https://twitter.com/iyifrr">Twitter</a> 
 		<a class="underline" href="https://github.com/iyifr">Github</a>
 
 		<h2 class="text-2xl font-bold mt-12 mb-0">Previous Yappings.</h2>
 		<Featured client:load/>
 		<Projects client:load/>
+
+		<p class="text-center">At the end of the day we're all just chemical scum dreaming of distant quasars.</p>
 		</main>
 		<Footer />
 	</body>

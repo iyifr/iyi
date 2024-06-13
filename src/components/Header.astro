@@ -1,18 +1,19 @@
 ---
 import HeaderLink from './HeaderLink.astro';
 import { SITE_TITLE } from '../consts';
+import { Image } from 'astro:assets';
 ---
 
 <header>
 		<nav class="flex flex-row items-center sm:justify-between justify-center lg:px-12">
 
 			<a href="/" class="sm:block hidden">
-			<img src = "/iyifr.png" class="lg:w-44 w-32"/>
+			<Image src = "/iyifr.png" class="lg:w-44 w-32" alt="website logo." width={44} height={44} loading={"eager"}/>
 			</a>
 			<span class="flex-row items-center md:gap-12 sm:p-0 px-4 gap-24 py-4">
-			<HeaderLink href="/">Home</HeaderLink>
-			<HeaderLink href="/blog" class="mx-8 sm:mx-12">Blog</HeaderLink>
-			<HeaderLink href="/about">About</HeaderLink>
+			<HeaderLink href="/">home</HeaderLink>
+			<HeaderLink href="/blog" class="mx-8 sm:mx-12">blog</HeaderLink>
+			<HeaderLink href="/projects/h4">H*4</HeaderLink>
 			</span>
 		</nav>
 </header>
