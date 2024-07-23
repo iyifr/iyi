@@ -15,9 +15,9 @@ Both of my sisters are currently busy with exams, usually my younger sister hang
 brother while he does the dishes, but since she's absent, we hung out as I was doing the dishes.
 
 I enjoy doing the dishes, I feel like it sparks my most creative and fringe thoughts. As any older
-brother does, I start to talk to Dolu (my brother) about time travel. I hadn't thought about time
-travel for a while until yesterday. When you watch a lot of sci-stuff as a kid, some ideas persist
-and others fade.
+brother does, I start to talk about time travel. I hadn't thought about time travel for a while
+until that moment, When you watch a lot of sci-stuff as a kid, some ideas persist and others fade
+over time. Time travel is something i've spent an unnecessary amount of time thinking about it.
 
 I said to Dolu,
 
@@ -107,5 +107,3 @@ Did I crack time travel ?
 Do you think my reasoning is critically flawed ?
 
 Tweet at [me](https://twitter.com/iyifrr.)
-
-Or email me your comment and I'll put it here - iyimide@proton.me

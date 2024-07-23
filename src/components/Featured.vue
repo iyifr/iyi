@@ -9,7 +9,8 @@ const getURL = (string: string) => `/blog/${string}`
 </script>
 
 <template>
-	<section class="h-auto">
+	<section class="h-auto my-[80px]">
+		<h2 class="text-2xl font-bold mt-12 mb-0">Previous Yaps / Essays.</h2>
 		<ul class="flex lg:flex-row flex-col gap-4 lg:h-56">
 			<li
 				v-for="post in featuredBlogEntries"

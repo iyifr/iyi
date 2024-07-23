@@ -35,22 +35,24 @@ const options: any = {
 <template>
 	<section class="mb-5">
 		<input
-			placeholder="Search for article"
+			placeholder="time travel"
 			:value="searchValue"
 			@input="(event: any) => (searchValue = event.target.value)"
 			class="text-black mt-8"
 		/>
 		<span v-if="loading"> Loading..... </span>
-		<ul class="mt-4 flex flex-col sm:flex-row gap-x-8 gap-y-12 flex-wrap items-center">
+		<ul class="mt-2 flex flex-col gap-x-8 gap-y-12">
 			<li
 				v-for="post in filteredPosts"
 				:key="post.data.title"
-				class="bg-[#222222] py-6 px-5 rounded-lg h-auto"
+				class="bg-[#222222]/30 py-6 px-5 rounded-lg h-auto hover:scale-95 duration-150"
 			>
 				<a :href="getURL(post.slug)">
-					<h2 class="mb-2">{{ post.data.title }}</h2>
-					<p class="date">{{ post.data.pubDate.toLocaleDateString('en-NG', options) }}</p>
-					<p class="mt-1 text-base text-white/80">{{ post.data.description }}</p>
+					<h2 class="mb-1">{{ post.data.title }}</h2>
+					<p class="date text-xs opacity-40">
+						Published: {{ post.data.pubDate.toLocaleDateString('en-NG', options) }}
+					</p>
+					<p class="mt-4 text-base text-white/80">{{ post.data.description }}</p>
 				</a>
 			</li>
 		</ul>
@@ -76,12 +78,6 @@ ul li a {
 .title {
 	margin: 0;
 	line-height: 1;
-}
-.date {
-	margin: 0;
-	color: rgb(204, 199, 199);
-	font-size: 14px;
-	opacity: 40;
 }
 
 .description {

@@ -41,32 +41,11 @@ p {
 	line-height: 2;
 	@apply leading-loose text-[18px];
 }
-textarea {
-	width: 100%;
-	font-size: 16px;
-}
+
 input {
 	font-size: 16px;
 }
-table {
-	width: 100%;
-}
-img {
-	max-width: 100%;
-	height: auto;
-	border-radius: 8px;
-}
-code {
-	padding: 2px 5px;
-	background-color: rgb(var(--gray-light));
-}
-pre {
-	padding: 1.8em;
-	border-radius: 8px;
-}
-pre > code {
-	all: unset;
-}
+
 
 blockquote {
 	border-left: 4px solid #adff2f;
@@ -76,6 +55,7 @@ blockquote {
 	font-weight: 300;
 	@apply my-12;
 }
+
 hr {
 	border: none;
 	border-top: 1px solid rgb(var(--gray-light));
