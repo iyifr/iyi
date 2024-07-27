@@ -5,7 +5,9 @@ const featuredBlogEntries = await getCollection('blog', ({ data }) => {
 	return data.featured === true
 })
 
-const getURL = (string: string) => `/blog/${string}`
+const getURL = (string: string) => { 
+	return `/blog/${string}`
+ }
 </script>
 
 <template>

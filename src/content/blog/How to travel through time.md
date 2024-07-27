@@ -4,7 +4,7 @@ description:
   "If you figured out how to keep a log of all the data in the universe, and kept snapshots of it everytime this data changed, you would become able observe the flow of time like a stack and insert yourself at some arbitrary snapshot you want to inhabit.
 "
 pubDate:  '5 March 2024'
-updatedDate: '27 March 2024'
+updatedDate: '27 July 2024'
 heroImage: '/blog-placeholder-1.jpg'
 featured: true
 ---
@@ -51,16 +51,13 @@ I made another statement off the top of my head -
 
 > Every time the state changes we move forward in time, with a new version of the universe.
 
-## Candid Description
+## My thought experiment.
 
-Imagine that the state box contained ALL the data about our universe. All the data about a gazillion
-and something atoms down to the last detail.
+Imagine that the state box contained a snapshot of ALL the data about our universe. All the data about a gazillion atoms down to the last detail.
 
-Some atom has decided to move three inches. Some atom somewhere else on the lattice has decided to
-bobble to the left a little bit due to some other thing. The description of the universe has
-changed. The snapshot has changed.
+Some matter is animated and can move, and each time they do, the way you desribe that piece of matter changes. The description of the universe is also changed as a result.
 
-Every time this snapshot changes, we move forward in time.
+Every time this happens, we move forward in time.
 
 > To shift time backwards, you have to reset the global state of aeons of data about the universe to
 > the snapshot of it at the exact point in time you wish to travel into.
@@ -94,16 +91,6 @@ The past is deterministic, the stack contains perfectly accurate data about the 
 
 The present is perpetually unfolding at a stochastic (random) pace.
 
-Only an entity outside of the universe can have access to this stack, it's so much data that it's
-difficult to comprehend.
+Only an entity outside of the universe can have access to this stack, it's so much data that it stretches our definition of quantization. 
 
-In programming terms, we don't have read-access or write-access to this stack, to the best of my
-little knowledge on physics.
-
----
-
-Did I crack time travel ?
-
-Do you think my reasoning is critically flawed ?
-
-Tweet at [me](https://twitter.com/iyifrr.)
+In programming terms, we have don't have read-access to this data. 

@@ -90,7 +90,7 @@ hr {
 }
 
 a {
-	@apply text-[#EFBBC0] hover:underline hover:text-[#EC9EA5] duration-300;
+	@apply text-[#EFBBC0] hover:underline hover:text-[#EECFD2] duration-300;
 }
 
 h1 {

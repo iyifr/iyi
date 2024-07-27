@@ -45,10 +45,10 @@ const options: any = {
 			<li
 				v-for="post in filteredPosts"
 				:key="post.data.title"
-				class="h-auto hover:scale-105 duration-150 max-w-md lg:max-w-3xl"
+				class="h-auto duration-150 max-w-md lg:max-w-3xl"
 			>
 				<a :href="getURL(post.slug)">
-					<h2 class="mb-1 text-3xl">{{ post.data.title }}</h2>
+					<h2 class="mb-1 text-2xl">{{ post.data.title }}</h2>
 					<p class="date text-xs text-white/90 opacity-80">
 						Published: {{ post.data.pubDate.toLocaleDateString('en-NG', options) }}
 					</p>
