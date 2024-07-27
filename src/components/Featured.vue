@@ -9,13 +9,13 @@ const getURL = (string: string) => `/blog/${string}`
 </script>
 
 <template>
-	<section class="h-auto my-[80px]">
-		<h2 class="text-2xl font-bold mt-12 mb-0">Previous Yaps / Essays.</h2>
+	<section class="my-[64px]">
+		<h2 class="text-2xl font-bold mt-12 mb-4">Previous Yaps / Essays.</h2>
 		<ul class="flex lg:flex-row flex-col gap-4 lg:h-56">
 			<li
 				v-for="post in featuredBlogEntries"
 				:key="post.data.title"
-				class="bg-[#222222] border-2 border-[#3A3A3A] p-4 mt-4 rounded-xl lg:w-1/2 w-full h-fit"
+				class="bg-[#222222] border-2 border-[#3A3A3A] px-8 py-6 mt-4 rounded-xl lg:w-1/2 h-fit"
 			>
 				<a
 					:href="getURL(post.slug)"
@@ -26,7 +26,7 @@ const getURL = (string: string) => `/blog/${string}`
 						<p class="text-sm mt-2.5">
 							Published - {{ post.data.pubDate.toLocaleDateString('en-NG') }}
 						</p>
-						<p class="text-xs font-thin mt-4">{{ post.data.description }}</p>
+						<p class="text-sm font-thin mt-8">{{ post.data.description.slice(0, 100) }}...</p>
 					</span>
 				</a>
 			</li>

@@ -34,7 +34,7 @@ b {
 }
 
 p {
-	@apply text-[18px];
+	@apply text-[18px]
 }
 
 .prose p {
@@ -90,7 +90,7 @@ hr {
 }
 
 a {
-	@apply text-fuchsia-200 hover:underline hover:text-[#E2DDFE] duration-300;
+	@apply text-[#EFBBC0] hover:underline hover:text-[#EC9EA5] duration-300;
 }
 
 h1 {

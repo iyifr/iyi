@@ -35,21 +35,21 @@ const options: any = {
 <template>
 	<section class="mb-5">
 		<input
-			placeholder="time travel"
+			placeholder="Find a blog post"
 			:value="searchValue"
 			@input="(event: any) => (searchValue = event.target.value)"
-			class="text-black mt-8"
+			class="text-black mt-8 px-3 h-10 rounded-lg"
 		/>
 		<span v-if="loading"> Loading..... </span>
-		<ul class="mt-2 flex flex-col gap-x-8 gap-y-12">
+		<ul class="mt-16 flex flex-col gap-y-20">
 			<li
 				v-for="post in filteredPosts"
 				:key="post.data.title"
-				class="bg-[#222222]/30 py-6 px-5 rounded-lg h-auto hover:scale-95 duration-150"
+				class="h-auto hover:scale-105 duration-150 max-w-md lg:max-w-3xl"
 			>
 				<a :href="getURL(post.slug)">
-					<h2 class="mb-1">{{ post.data.title }}</h2>
-					<p class="date text-xs opacity-40">
+					<h2 class="mb-1 text-3xl">{{ post.data.title }}</h2>
+					<p class="date text-xs text-white/90 opacity-80">
 						Published: {{ post.data.pubDate.toLocaleDateString('en-NG', options) }}
 					</p>
 					<p class="mt-4 text-base text-white/80">{{ post.data.description }}</p>
@@ -58,55 +58,3 @@ const options: any = {
 		</ul>
 	</section>
 </template>
-
-<style scoped>
-h2 {
-	font-size: 1.6rem;
-}
-
-ul li {
-	width: calc(50% - 1rem);
-}
-ul li * {
-	text-decoration: none;
-	transition: 0.2s ease;
-}
-
-ul li a {
-	display: block;
-}
-.title {
-	margin: 0;
-	line-height: 1;
-}
-
-.description {
-	font-size: 12px;
-	color: #ffffff;
-	opacity: 50;
-}
-@media (max-width: 720px) {
-	ul {
-		gap: 1em;
-		margin-bottom: 12px;
-	}
-	ul li {
-		width: 100%;
-		margin-top: 2px;
-	}
-	ul li:first-child {
-		margin-bottom: 0;
-	}
-
-	.description {
-		font-size: 14px;
-	}
-}
-
-input {
-	margin-bottom: 24px;
-	padding-block: 4px;
-	padding-inline: 12px;
-	border-radius: 4px;
-}
-</style>
