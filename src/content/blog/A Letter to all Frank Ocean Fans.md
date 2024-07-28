@@ -99,8 +99,6 @@ answers we'll ever get, he is the only one that has them. Drop the album dawg, p
 A big component of the pull Frank Ocean has on us has little to do with music and much more with,
 Him. After all he is normal human being, I guess he meant it when he said
 
-<br />
-
 > I'm just a guy I'm not a god
 
 He really is just a guy. Staying away from the spotlight, the news, the glaring eyes of the media

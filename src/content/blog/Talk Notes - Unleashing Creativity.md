@@ -1,8 +1,7 @@
 ---
-title: 'Unleashing Creativity as a developer'
+title: 'Talk Notes: Unleashing Creativity as a developer'
 description:
-  'The conversation about creativity is a critical one .. to see your potential as a developer or as a human being you have to solve problems and to continuously suprise yourself and that requires creativity and strong persistence
-'
+  'Slightly edited notes for my talk on creativity and pushing one-self as a developer'
 pubDate: '25 Jan 2023'
 heroImage: '/blog-placeholder-1.jpg'
 ---

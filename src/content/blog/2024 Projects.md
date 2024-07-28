@@ -3,6 +3,7 @@ title: '2024 projects'
 description: 'A couple of things I want to build this year.'
 pubDate: '26 March 2024'
 heroImage: '/blog-placeholder-1.jpg'
+draft: true
 ---
 
 The first quarter of this year is practically over. At the start of the year i set out to build 12
