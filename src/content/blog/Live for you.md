@@ -3,7 +3,7 @@ title: 'Live for you'
 description:
   "When life let's you swing, swing hard. 
 
-You never know when you arms will get chopped off.
+You never know when your arms will get chopped off.
 
 Or when the game will be over. 
 

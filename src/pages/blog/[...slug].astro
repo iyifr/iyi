@@ -14,11 +14,11 @@ const { Content, headings } = await post.render();
 ---
 
 <BlogPost {...post.data}>
-	<div class="mt-4 mb-8">
+	<div class="mt-4 mb-8 md:text-base text-sm">
 		<Headers headers={headings} url={slug!}/>
 	</div>
 
-	<div class="prose dark:prose-invert prose-blockquote:border-l-[#adff2f] prose-blockquote:font-light prose-blockquote:text-gray-3000 prose-headings:mt-12 prose-headings:mb-2 prose-h3:mb-0 w-full lg:!max-w-4xl !max-w-lg">
+	<div class="prose dark:prose-invert prose-blockquote:border-l-[#adff2f] prose-blockquote:font-light prose-blockquote:text-gray-3000 prose-headings:mt-12 prose-headings:mb-2 prose-headings:font-bold prose-h3:mb-4 w-full lg:!max-w-4xl !max-w-lg prose-h2:text-2xl prose-ul:text-md">
 	<Content />
 	</div>
 </BlogPost>

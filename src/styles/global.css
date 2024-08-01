@@ -94,23 +94,23 @@ a {
 }
 
 h1 {
-	@apply text-5xl mb-3;
+	@apply text-5xl mb-3 font-bold;
 }
 
 h2 {
-	@apply text-4xl;
+	@apply text-4xl font-bold;
 }
 
 h3 {
-	@apply sm:text-3xl text-2xl font-semibold;
+	@apply md:text-3xl text-2xl font-semibold;
 }
 
 h4 {
-	@apply md:text-3xl text-2xl font-bold;
+	@apply md:text-2xl text-xl font-bold;
 }
 
 h5 {
-	@apply md:text-2xl mt-4 mb-2.5;
+	@apply md:text-xl mt-4 mb-2.5;
 }
 
 h1,

@@ -1,7 +1,7 @@
 ---
 title: 'Talk Notes: Unleashing Creativity as a developer'
 description:
-  'Slightly edited notes for my talk on creativity and pushing one-self as a developer'
+  'Slightly edited notes for my talk on creativity and pushing one-self as a developer.'
 pubDate: '25 Jan 2023'
 heroImage: '/blog-placeholder-1.jpg'
 ---

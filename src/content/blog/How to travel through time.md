@@ -1,7 +1,7 @@
 ---
 title: 'How to travel through time'
 description:
-  "If you figured out how to keep a log of all the data in the universe, and kept snapshots of it everytime this data changed, you would become able observe the flow of time like a stack and insert yourself at some arbitrary snapshot you want to inhabit.
+  "If you had all snapshots of the universe at all possible points in time, you would be able see time like a stack of snapshots of universe data and insert yourself at some arbitrary snapshot you want to inhabit.
 "
 pubDate:  '5 March 2024'
 updatedDate: '27 July 2024'
@@ -12,12 +12,11 @@ featured: true
 ## Intro
 
 Both of my sisters are currently busy with exams, usually my younger sister hangs out with my
-brother while he does the dishes, but since she's absent, we hung out as I was doing the dishes.
+brother while he does the dishes, but since she's not around, we hung out as I did the dishes.
 
-I enjoy doing the dishes, I feel like it sparks my most creative and fringe thoughts. As any older
-brother does, I start to talk about time travel. I hadn't thought about time travel for a while
-until that moment, When you watch a lot of sci-stuff as a kid, some ideas persist and others fade
-over time. Time travel is something i've spent an unnecessary amount of time thinking about it.
+To be honest, I enjoy doing the dishes, I feel like it sparks my most creative and fringe thoughts. As any older
+brother does, I start to talk about time travel. When you watch a lot of sci-stuff as a kid, some ideas persist and others fade
+over time. Time travel is something i've spent an unnecessary amount of time thinking about since i saw it potrayed in the the movies all those years ago.
 
 ## My thought experiment.
 I said to Dolu,
@@ -72,7 +71,10 @@ So time is a by-product of the natural entropy[^m] of the universe.
 > To shift time forwards, you would have to accelerate the changes and randomness and arrive at a
 > new snapshot of the universe several trillions of iterations ahead.
 
-There are some things you would need to figure out.
+All of these statements are results of thought experiments. 
+
+These explanations are not without flaw, though.
+
 
 ## Problems
 
