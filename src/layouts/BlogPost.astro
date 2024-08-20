@@ -38,9 +38,9 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 		<main>
 			<article class="!p-6 lg:p-0">
 				<div class="lg:max-w-4xl lg:p-4 mx-auto mb-5">
-					<div class="flex flex-col justify-center align-center">
-						<h2 class="md:text-5xl text-4xl mb-4  text-center my-12">{title}</h2>
-						<div class="date mb-12 text-center">
+					<div class="flex flex-col">
+						<h2 class="md:text-5xl text-4xl mb-4 my-12">{title}</h2>
+						<div class="date my-4	">
 							Published: <FormattedDate date={pubDate} />
 							{
 								updatedDate && (
@@ -49,6 +49,7 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 									</div>
 								)
 							}
+							<p class="block mt-2  text-md text-[#EFBBC0]"> ^ {description} ^</p>
 						</div>
 					</div>
 					<slot />
