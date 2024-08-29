@@ -120,8 +120,6 @@ The conclusion i've come to is that is that you should swing between both as muc
 
 Structured study of a wide range of concepts <> Hands-on practice.
 
-The way to truly learn is to absolutely immerse yourself in *quality* learning material and accumulate hours of practice.  
-
 I read this [reply](https://x.com/cramforce/status/1824502095338409987) to a tweet by the CTO of vercel
 
 > Collect programming hours like pilots collect flight hours.
@@ -155,6 +153,9 @@ Then it evolves into something like this
 - Tweak the source code, change the design, add features
 - Try to merge what you've changed with the original coder's version, they can approve or deny this request. 
 - Do this many times.
+
+---
+- Build cool projects of your own
 
 But here's the tl;dr.. If you're completely new with programming
 

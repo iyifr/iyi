@@ -1,6 +1,6 @@
 ---
 title: 'Upload - Fast'
-description: 'The best way for frontend developers to add file uploads to apps.'
+description: 'A sexy R2 wrapper for developers to offer user-generated content in their apps'
 stack: ['Indie Hacking', 'Open source startup', 'Software as a service']
 url: 'https://github.com/upload-fast'
 ---
