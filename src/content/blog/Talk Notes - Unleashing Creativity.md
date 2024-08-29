@@ -179,7 +179,7 @@ There's no hacks to consistency, you do what's required even when you hate it, e
 last thing you want to do. You don't forget your goal. Your mind is relaxed, alert and free. You
 know what you must do, so you do it.
 
-#### Thanks gangy
+#### Final note.
 
 Thanks for reading my talk notes! This is an (edited) writtten version of a talk i gave on a GDSC
 stream. It was a very proud moment for me.

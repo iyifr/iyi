@@ -5,7 +5,7 @@ const getURL = (string: string) => `/projects/${string}`
 </script>
 
 <template>
-	<section class="lg:mt-[144px] mb-[80px]">
+	<section class="lg:mt-[144px] mb-[80px]" id = "projects">
 		<h2 class="font-bold text-2xl">Projects</h2>
 		<ul class="mb-12 flex flex-col gap-4">
 			<li

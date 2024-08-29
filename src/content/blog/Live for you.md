@@ -13,7 +13,6 @@ No one can live for you.
 "
 pubDate:  '29 March 2024'
 heroImage: '/blog-placeholder-1.jpg'
-featured: true
 ---
 
 Living for you.

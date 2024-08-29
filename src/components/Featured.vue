@@ -26,7 +26,7 @@ const getURL = (string: string) => {
 					<span class="text-white/80">
 						<h2 class="text-2xl font-bold mt-1">{{ post.data.title }}</h2>
 						<p class="text-sm mt-2.5">
-							Published - {{ post.data.pubDate.toLocaleDateString('en-NG') }}
+							Published - {{ post.data.pubDate.toLocaleDateString('en-NG', {dateStyle: "long"}) }}
 						</p>
 						<p class="text-sm font-thin mt-8">{{ post.data.description.slice(0, 100) }}...</p>
 					</span>
