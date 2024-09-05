@@ -1,6 +1,16 @@
 <script setup lang="ts">
 import { getCollection } from 'astro:content'
 const projects = await getCollection('projects')
+const filtered = projects.sort(function (a, b) {
+  if (a.data.title.toLocaleLowerCase() > b.data.title.toLocaleLowerCase()) {
+    return -1;
+  }
+  if (a.data.title.toLocaleLowerCase() < b.data.title.toLocaleLowerCase()) {
+    return 1;
+  }
+  return 0;
+});
+
 const getURL = (string: string) => `/projects/${string}`
 </script>
 
@@ -9,7 +19,7 @@ const getURL = (string: string) => `/projects/${string}`
 		<h2 class="font-bold text-2xl">Projects</h2>
 		<ul class="mb-12 flex flex-col gap-4">
 			<li
-				v-for="project in projects"
+				v-for="project in filtered"
 				class="bg-[#222222] border-2 border-[#3A3A3A] p-4 mt-4 rounded-xl"
 			>
 				<a

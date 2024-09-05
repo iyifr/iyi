@@ -1,7 +1,7 @@
 ---
 title: 'Karu'
-description: 'A Software Application for data-driven restaurants and cafes to automate book-keeping'
-stack: ['Next.js', 'Software as a service', 'Turso', 'Sqlite']
+description: 'A Software Application to automate book-keeping & sales-recording at restaurants and cafes.'
+stack: ['Indie Hacking', 'Software as a service',]
 url: 'https://karu-app.vercel.app'
 ---
 

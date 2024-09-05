@@ -12,6 +12,14 @@ const { title, description, stack, images, url } = Astro.props;
 <html lang="en">
 	<head>
 		<BaseHead title={title} description={description}  />
+		<script type="text/javascript" src="/image-zoom.js"></script>
+		<script>
+			const collection = document.getElementsByTagName("img");
+			for (let i = 0; i < collection.length; i++) {
+				collection[i].className += 'expand-enabled'
+			}	
+
+		</script>
 	</head>
 
 
@@ -20,7 +28,7 @@ const { title, description, stack, images, url } = Astro.props;
 		<main class="lg:max-w-4xl mx-auto lg:px-0 px-6 prose-blockquote:border-l-[#adff2f] prose-blockquote:font-light prose-blockquote:text-gray-3000 prose-headings:mt-8 prose-headings:mb-0 prose-h3:mb-0 w-full" id="project">
             <h2 class="font-bold !mt-4 text-3xl">{title}</h2>
             <p class="mt-4 font-light">{description}</p>
-			<a href={url} target="_blank">Project Link</a>
+			<a href={url} target="_blank" class="text-[14px]">Project Link</a>
 
 		    <slot class="leading-loose"/>
 		</main>
