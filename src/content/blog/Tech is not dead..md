@@ -1,6 +1,6 @@
 ---
 title: 'Tech is not dead'
-description: "Why the tech boom in my country is (mostly) a good thing."
+description: "An essay to remind you once again, the world has changed."
 pubDate: '30 Jul 2024'
 heroImage: '/sama.webp'
 ---

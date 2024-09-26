@@ -17,6 +17,7 @@ const getURL = (string: string) => `/projects/${string}`
 <template>
 	<section class="lg:mt-[144px] mb-[80px]" id = "projects">
 		<h2 class="font-bold text-2xl">Projects</h2>
+		<p class="mt-2 text-md font-light text-gray-200">I wasn't bluffing, i'm a pretty decent software engineer</p>
 		<ul class="mb-12 flex flex-col gap-4">
 			<li
 				v-for="project in filtered"

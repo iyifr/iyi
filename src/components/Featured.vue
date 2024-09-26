@@ -12,7 +12,8 @@ const getURL = (string: string) => {
 
 <template>
 	<section class="my-[64px]">
-		<h2 class="text-2xl font-bold mt-12 mb-4">Previous Yaps / Essays.</h2>
+		<h2 class="text-2xl font-bold mt-12 mb-4">Previously published</h2>
+		<p>I think this is supposed to be a <strong>featured</strong> section.</p>
 		<ul class="flex lg:flex-row flex-col gap-4 lg:h-56">
 			<li
 				v-for="post in featuredBlogEntries"

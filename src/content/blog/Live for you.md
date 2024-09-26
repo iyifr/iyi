@@ -15,6 +15,8 @@ pubDate:  '29 March 2024'
 heroImage: '/blog-placeholder-1.jpg'
 ---
 
+**There is a new version of this [article](live)** 
+
 Living for you.
 
 Live for yourself because it's the right thing to do.

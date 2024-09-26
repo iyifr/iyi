@@ -3,7 +3,7 @@ title: 'Slightly better advice'
 description: 'Advice for people trying to get into programming.'
 pubDate: '20 August 2024'
 heroImage: '/blog-placeholder-5.jpg'
-featured: true
+draft: true
 ---
 
 I often find myself with an opportunity to give advice related to programming. 

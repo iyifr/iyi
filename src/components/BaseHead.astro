@@ -11,7 +11,7 @@ interface Props {
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 
-const { title, description, image = '/mesh-gradient.png' } = Astro.props;
+const { title, description, image = 'https://assets.uploadfast.dev/fullll-3ugc.png' } = Astro.props;
 ---
 
 <!-- Global Metadata -->
@@ -34,8 +34,7 @@ const { title, description, image = '/mesh-gradient.png' } = Astro.props;
 <meta property="og:url" content={Astro.url} />
 <meta property="og:title" content={title} />
 <meta property="og:description" content={description} />
-<meta property="og:image" content={new URL(image, Astro.url)} />
-<meta property="og:image" content= 'https://assets.uploadfast.dev/fullll-3ugc.png' />
+<meta property="og:image" content={image} />
 
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image" />
